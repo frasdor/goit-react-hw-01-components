@@ -10,7 +10,7 @@ import PropTypes from 'prop-types';
     />
 
 
-const Profile = ({username, tag, location, avatar, status}) => {
+export const Profile = ({username, tag, location, avatar, status}) => {
     return (
     <div class="profile">
     <div class="description">
