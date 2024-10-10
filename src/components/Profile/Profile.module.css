@@ -1,0 +1,76 @@
+/* Kontener dla całego profilu */
+.profile {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Sekcja opisu */
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  /* Awatar użytkownika */
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  /* Nazwa użytkownika */
+  .name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Tag użytkownika (@) */
+  .tag {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  /* Lokalizacja użytkownika */
+  .location {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  /* Sekcja statystyk */
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Elementy statystyk (Followers, Views, Likes) */
+  .stats li {
+    text-align: center;
+  }
+  
+  .label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .quantity {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+  

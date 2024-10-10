@@ -1,0 +1,70 @@
+/* Główna sekcja statystyk */
+.statistics {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Tytuł sekcji */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Lista statystyk */
+  .statList {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+  
+  /* Pojedynczy element statystyki */
+  .item {
+    flex: 1;
+    margin: 0 5px;
+    background-color: #f3f3f3;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Etykieta i procenty */
+  .label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .percentage {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Różne kolory dla każdego elementu */
+  .item:nth-child(1) {
+    background-color: #3498db; /* Niebieski */
+  }
+  
+  .item:nth-child(2) {
+    background-color: #8e44ad; /* Fioletowy */
+  }
+  
+  .item:nth-child(3) {
+    background-color: #e74c3c; /* Czerwony */
+  }
+  
+  .item:nth-child(4) {
+    background-color: #1abc9c; /* Turkusowy */
+  }
+  

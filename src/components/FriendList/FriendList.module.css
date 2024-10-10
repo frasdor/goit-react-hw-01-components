@@ -1,0 +1,43 @@
+/* Główna lista znajomych */
+.friendList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Pojedynczy element listy znajomych */
+  .item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styl statusu znajomego */
+  .status {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Styl awataru */
+  .avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+  }
+  
+  /* Styl imienia znajomego */
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  

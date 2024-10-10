@@ -1,0 +1,61 @@
+/* Styl dla całej tabeli */
+.transaction-history {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto; /* Wyśrodkowanie tabeli */
+    border-collapse: collapse; /* Usunięcie przerw między komórkami */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Efekt cienia */
+    border-radius: 10px; /* Zaokrąglenie rogów */
+    overflow: hidden; /* Ukrycie wystających elementów */
+  }
+  
+  /* Styl dla nagłówka tabeli */
+  .transaction-history thead {
+    background-color: #009879;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Styl dla wierszy nagłówka */
+  .transaction-history thead th {
+    padding: 12px 15px;
+    text-transform: uppercase;
+  }
+  
+  /* Styl dla wierszy zawartości */
+  .transaction-history tbody tr {
+    border-bottom: 1px solid #dddddd;
+    transition: background-color 0.3s ease; /* Animacja na hover */
+  }
+  
+  /* Styl dla komórek danych */
+  .transaction-history tbody td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  /* Styl dla naprzemiennych wierszy */
+  .transaction-history tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  /* Styl wiersza na hover */
+  .transaction-history tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Styl dla komórek z typem transakcji */
+  .transaction-history tbody td:first-child {
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  /* Styl dla kwoty i waluty */
+  .transaction-history tbody td:nth-child(2),
+  .transaction-history tbody td:nth-child(3) {
+    text-align: right;
+  }
+  
+ 
+  
