@@ -12,6 +12,8 @@ import { FriendList } from '../FriendList/FriendList';
 import transactions from '../data/transactions.json';
 import { TransactionHistory } from '../TransactionHistory/TransactionHistory';
 
+import styles from './App.module.css';
+
 export const App = () => {
   return (
     <><div className={styles.container}>
