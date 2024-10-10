@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Ustawienie komponentów jeden pod drugim */
+    align-items: center; /* Wyśrodkowanie komponentów w poziomie */
+    gap: 20px; /* Odstęp między poszczególnymi komponentami */
+    padding: 20px;
+    font-size: 16px; /* Ustawienie standardowej wielkości czcionki */
+    color: #010101;
+  }
